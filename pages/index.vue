@@ -12,7 +12,7 @@
 
       <button
         class="tag"
-        :class="{ "tag--active": activeTag === tag.name }"
+        :class="{ 'tag--active': activeTag === tag.name }"
         v-for="(tag, index) in tags"
         :key="index"
         @click="activeTag = tag.name"
